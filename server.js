@@ -14,7 +14,7 @@ async function startServer() {
 };
 startServer();
 //Mongoose
-mongoose.connect(process.env.MONGODB_LOCAL_URL)
+mongoose.connect(process.env.MONGODB_URL)
     .then(() => console.log("MongoDB Connected Successfully!"))
     .catch((err) => console.log("MognoDB Connetion Failed!"));
 
