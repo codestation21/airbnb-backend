@@ -1,10 +1,10 @@
 {
   "name": "real-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real State Website. A bookign management system.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
