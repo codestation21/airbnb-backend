@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'airbnbclone'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FAB6F36F2B2D44B89ABB03BFD875098A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E0C3A8469F8C4EB2A73992CDBDA5C778 }}
           package: .
