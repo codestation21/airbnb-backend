@@ -7,6 +7,11 @@ const app = require('./app');
 const apolloServer = require('./apollo');
 
 //Create Function
+async function startServer() {
+    app.use(graphqlUploadExpress());
+    await apolloServer.start();
+    apolloServer.applyMiddleware({ app });
+};
 startServer();
 //Mongoose
 mongoose.connect(process.env.MONGODB_URL)
